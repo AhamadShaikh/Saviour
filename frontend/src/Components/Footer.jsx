@@ -12,19 +12,35 @@ const Footer = () => {
         <p className="text-[#FF002A] text-center">SITEMAP</p>
       </div>
       <div className="flex xsm:max-w-[100%] md:min-w-[60%] m-auto text-[10px] xsm:space-x-2 md:text-lg md:space-x-10">
-        <a href="">home</a>
-        <a href="">IDO</a>
-        <a href="#Tokonomics">Tokonomics</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#whitepaper">Whitepaper</a>
-        <a href="">Pledge</a>
-        <a href="">NFT</a>
-        <a href="">Games</a>
+        <a href="" className="hover:underline">
+          home
+        </a>
+        <a href="" className="hover:underline">
+          IDO
+        </a>
+        <a href="#Tokonomics" className="hover:underline">
+          Tokonomics
+        </a>
+        <a href="#roadmap" className="hover:underline">
+          Roadmap
+        </a>
+        <a href="#whitepaper" className="hover:underline">
+          Whitepaper
+        </a>
+        <a href="" className="hover:underline">
+          Pledge
+        </a>
+        <a href="" className="hover:underline">
+          NFT
+        </a>
+        <a href="" className="hover:underline">
+          Games
+        </a>
       </div>
       <div className="flex space-x-4">
-        <FaTwitter className="text-[#ED0137]" />
-        <FaTelegramPlane className="text-[#ED0137]"/>
-        <MdEmail className="text-[#ED0137]"/>
+        <FaTwitter className="text-[#ED0137] hover:border hover:border-[#ED0137] w-10 h-10 p-2 rounded-full hover:cursor-pointer" />
+        <FaTelegramPlane className="text-[#ED0137] hover:border hover:border-[#ED0137] w-10 h-10 p-2 rounded-full hover:cursor-pointer" />
+        <MdEmail className="text-[#ED0137] hover:border hover:border-[#ED0137] w-10 h-10 p-2 rounded-full hover:cursor-pointer" />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import img1 from "../assets/img1.png";
 
 const Faq = () => {
   return (
-    <div className="flex xsm:flex-col md:flex-row text-white mx-4 text-sm md:text-lg md:space-x-28">
+    <div className="flex xsm:flex-col md:flex-row text-white mx-4 text-sm md:text-lg md:space-x-28 mt-10">
       <div className="max-w-[503px]">
         <img src={img1} alt="" className="w-full"/>
       </div>

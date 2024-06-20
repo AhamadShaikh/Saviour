@@ -4,7 +4,7 @@ import bg2 from "../assets/bg2.png";
 const Introduction = () => {
   return (
     <div className="flex xsm:flex-col md:flex-row text-white">
-      <div className="md:w-[40%] flex flex-col space-y-8 items-center text-center justify-center">
+      <div className="md:w-[40%] flex flex-col space-y-8 items-center text-center justify-center mt-6">
         <p className="text-[#ED0137] text-4xl">Introduction</p>
         <p className="font-zoco">
           We've all been in the mud once, and now we've decided to fight it out.

@@ -48,8 +48,8 @@ const roadmapData = [
 
 const Roadmap = () => {
   return (
-    <div className="flex justify-center bg-black text-white font-sans xsm:flex-col items-center">
-      <p className="text-[#ED0137] font-shojumaru text-4xl text-center mt-6">Roadmap</p>
+    <div className="flex justify-center bg-black text-white font-sans xsm:flex-col items-center mt-6">
+      <p className="text-[#ED0137] font-shojumaru text-4xl text-center mb-10">Roadmap</p>
       <div className="carousel rounded-box xsm:w-64 md:w-[80%] gap-4 overflow-hidden m-6">
         {roadmapData?.map((ele, ind) => (
           <div key={ele.id} className="border border-[#ED0137] rounded-2xl text-left xsm:w-full md:w-[23%] relative carousel-item">

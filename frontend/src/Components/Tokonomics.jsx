@@ -5,7 +5,7 @@ import logo from "../assets/logo.png";
 const Tokonomics = () => {
   return (
     <div
-      className="bg-cover bg-center xsm:min-h-[450px] md:min-h-[588px] m-0 px-2 text-white w-[100%] "
+      className="bg-cover bg-center xsm:min-h-[450px] md:min-h-[588px] m-0 px-2 text-white w-[100%] mt-6"
       style={{ backgroundImage: `url(${bg4})`, background: "0.3" }}
     >
       <p className="text-[#ED0137] text-4xl text-center mt-6">

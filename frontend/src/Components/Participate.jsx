@@ -3,9 +3,12 @@ import bg3 from "../assets/bg3.png";
 const Participate = () => {
   return (
     <div
-      className="bg-cover bg-center xsm:min-h-[450px] md:min-h-[588px] m-0 px-2 text-white flex xsm:flex-col md:flex-row w-[100%]"
+      className="bg-cover bg-center xsm:min-h-[450px] md:min-h-[588px] m-0 px-2 text-white flex xsm:flex-col md:flex-row w-[100%] mt-6"
       style={{ backgroundImage: `url(${bg3})`, background: "0.3" }}
     >
+      <div>
+        
+      </div>
       <div className="flex flex-col w-[100%] space-y-10">
         <p className="text-[#ED0137] xsm:text-2xl md:text-3xl text-center">
           Participate in our IDO Event!

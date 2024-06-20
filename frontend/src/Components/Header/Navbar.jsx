@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="xsm:w-14 flex  md:w-24 bg-contain">
           <img src={logo} alt="" className="pt-4" />
         </div>
-        <p>Saviour</p>
+        <p className=" xsm:text-lg md:text-2xl">Saviour</p>
       </div>
       <div className="xsm:hidden md:block font-zoco md:flex bg-[#191818] text-white list-none rounded-2xl max-w-[583px]  border border-white h-14 space-x-6 text-center items-center px-16 m-auto">
         <a href="#home">Home</a>
