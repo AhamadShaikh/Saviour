@@ -42,9 +42,22 @@ const Participate = () => {
                 </p>
               </div>
             </div>
+            <p className="text-[#ED0137] xsm:text-3xl text-center md:text-4xl">
+              Become an affiliate & Earn 7% as Commission!
+            </p>
+            <div className="relative max-w-[350px]">
+              <input
+                type="text"
+                placeholder="Generate a unique referral link"
+                className="border border-[#ED0137] px-4 py-2 bg-black rounded-full mt-4 mb-6 w-full placeholder:text-[8px]"
+              />
+              <button className="xsm:py-1 px-2 font-sans bg-[#ED0137] py-1 px-2 rounded-xl text-white absolute top-[20px] left-[220px]">
+                Generate
+              </button>
+            </div>
           </div>
 
-          <div className="container2 font-zoco border border-[#ED0137] rounded-lg min-h-[738px] leading-8 text-center p-2 flex flex-col justify-center items-center xsm:max-w-[100%] md:w-[60%] bg-black">
+          <div className="container2 font-zoco border border-[#ED0137] rounded-lg min-h-[738px] leading-8 text-center p-2 flex flex-col justify-center items-center xsm:max-w-[100%] md:w-[55%] bg-black">
             <p className="text-[#ED0137] xsm:text-2xl md:text-3xl text-center font-shojumaru">
               PRESALE 1
             </p>

@@ -14,7 +14,7 @@ const Introduction = () => {
           and succeed. read more...
         </p>
         <button className="xsm:py-1 px-2 font-sans bg-[#ED0137] py-2 px-4 rounded-xl text-white">
-          documents
+          connect wallet
         </button>
       </div>
       <div className="max-w-[795px]">
